@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-poetry-venv"
+version = "0.1.0"
+description = ""
+authors = ["Rémi Ferrand <remi.ferrand@cc.in2p3.fr>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+python-poetry-venv = "python_poetry_venv.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
